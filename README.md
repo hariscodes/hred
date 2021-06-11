@@ -16,3 +16,7 @@ Small tool which makes config files with tons of comments acutally readable.
 Simply use `hred <file>` and all commented lines will be removed, spitting out text representing the active configuration. 
 
 `hred ~/.zshrc`
+
+You can also pipe output to `hred`.
+
+`cat ~/.zshrc | hred`
